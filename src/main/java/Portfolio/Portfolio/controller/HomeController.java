@@ -19,8 +19,9 @@ public class HomeController {
     private HomeService homeService;
 
     @GetMapping("/educations")
-    ResponseEntity<List<Education>> getEducations(){
-        return ResponseEntity.ok( homeService.getEducations());
+     public List<Education> getEducations(){
+            return  homeService.getEducations();
+            
     }
 }
 

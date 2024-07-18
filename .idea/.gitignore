@@ -1,0 +1,17 @@
+# Default ignored files
+
+# IDEA
+# ----
+.idea
+.idea/
+.shelf
+/*.iml
+/*.ipr
+/*.iws
+/out
+
+/out/*.*
+
+# Maven specific
+
+target/
