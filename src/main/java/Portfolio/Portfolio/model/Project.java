@@ -4,8 +4,11 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.Getter;
+
 @Entity
-@Table( name = "name")
+@Getter
+@Table
 public class Project {
     @Id
     @GeneratedValue
@@ -19,7 +22,7 @@ public class Project {
     }
 
 
-    public void Project (String name, String description, String technology_used, int id) {
+    public  Project (String name, String description, String technology_used, int id) {
         this.description = description;
         this.duration= duration;
         this.technology_used = technology_used;

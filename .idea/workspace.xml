@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96f0b7f2-b33b-4d7d-9f15-eb235ff5512d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a9a3c1a2-64b2-4882-806c-4dd39e533143.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a9a3c1a2-64b2-4882-806c-4dd39e533143/storage_v2/_src_/schema/portfolio.SAXdQg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+    <list default="true" id="96f0b7f2-b33b-4d7d-9f15-eb235ff5512d" name="Changes" comment="fix for table data">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a9a3c1a2-64b2-4882-806c-4dd39e533143.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a9a3c1a2-64b2-4882-806c-4dd39e533143.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio/Portfolio/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Portfolio/Portfolio/controller/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio/Portfolio/model/Education.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Portfolio/Portfolio/model/Education.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio/Portfolio/model/Experience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Portfolio/Portfolio/model/Experience.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio/Portfolio/model/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Portfolio/Portfolio/model/Project.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Portfolio/Portfolio/service/HomeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Portfolio/Portfolio/service/HomeService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Shahidkhan2202&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Shahidkhan2202/Portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;1049d11b-e1b3-42ff-a117-ef6ebcf453ef&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/Portfolio/Portfolio/repositories/ProjectRepository.java" root0="SKIP_INSPECTION" />
   </component>
@@ -135,8 +138,18 @@
       <workItem from="1720840097052" duration="581000" />
       <workItem from="1720852427352" duration="3316000" />
       <workItem from="1720936055714" duration="694000" />
-      <workItem from="1721283487822" duration="2359000" />
+      <workItem from="1721283487822" duration="6948000" />
+      <workItem from="1721354696071" duration="6506000" />
     </task>
+    <task id="LOCAL-00001" summary="fix for table data">
+      <option name="closed" value="true" />
+      <created>1721312749170</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721312749170</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,11 +160,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="text">
+                    <value>
+                      <list>
+                        <option value="fix for table data" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix for table data" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix for table data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

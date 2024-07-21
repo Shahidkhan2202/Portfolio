@@ -5,7 +5,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter
-@Setter
 @Entity
 @Table(name="education")
 public class Education {
@@ -27,18 +26,4 @@ public class Education {
 
     @Column(name = "gpa")
     private Double gpa;
-
-    public Education() {
-
-    }
-
-    public Education(String institutionName, String degree, String fieldOfStudy, Integer graduationYear, Double gpa) {
-        this.institutionName = institutionName;
-        this.degree = degree;
-        this.fieldOfStudy = fieldOfStudy;
-        this.graduationYear = graduationYear;
-        this.gpa = gpa;
-
-
-    }
 }
